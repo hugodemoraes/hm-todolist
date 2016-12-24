@@ -1,4 +1,3 @@
 module.exports = {
-    remoteUrl : process.env.DATABASE_REMOTE_URL,
-    localUrl: 'mongodb://localhost/hm-todolist'
+    remoteUrl : 'mongodb://admin:#hcm2015@ds145118.mlab.com:45118/hm-todolist'
 };
