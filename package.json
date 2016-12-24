@@ -3,7 +3,7 @@
     "version": "0.0.1",
     "description": "A simple multi todo list in Mode.js and MongoDb.",
     "engines": {
-      "node": "4.2.6"
+      "node": "5.9.1"
     }
     "main": "server.js",
     "author": "Hugo de Moraes",
