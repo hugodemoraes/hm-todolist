@@ -1,0 +1,8 @@
+{
+  "name": "MDeveloper - ToDo List",
+  "description": "A simple multi NodeJs and MongoDb todo list",
+  "repository": "https://github.com/hugodemoraes/hm-todolist",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "mongodb", "angular"],
+  "image": "heroku/nodejs"
+}
