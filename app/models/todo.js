@@ -1,6 +1,6 @@
-var mongoose = require('mongoose');
+import mongoose from 'mongoose'
 
-module.exports = mongoose.model('Todo', {
+export default mongoose.model('Todo', {
     text: {
         type: String,
         default: ''

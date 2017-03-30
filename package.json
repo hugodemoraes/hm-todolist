@@ -9,7 +9,7 @@
   "main": "server.js",
   "author": "Hugo de Moraes",
   "scripts": {
-    "start": "node server.js"
+    "start": "babel-node server.js"
   },
   "dependencies": {
     "babel": "^6.23.0",
