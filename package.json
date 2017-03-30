@@ -1,26 +1,29 @@
 {
-    "name": "hm-todolist",
-    "version": "0.0.1",
-    "description": "A simple multi todo list in Mode.js and MongoDb.",
-    "engines": {
-      "node": "4.2.6",
-      "npm": "3.5.2"
-    },
-    "main": "server.js",
-    "author": "Hugo de Moraes",
-    "scripts": {
-      "start": "node server.js"
-    },
-    "dependencies": {
-        "body-parser": "^1.4.3",
-        "express": "^4.13.4",
-        "method-override": "^2.1.3",
-        "mongoose": "^4.4.12",
-        "morgan": "^1.1.1"
-    },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/hugodemoraes/hm-todolist"
-    },
-    "license": "MIT"
+  "name": "hm-todolist",
+  "version": "0.0.1",
+  "description": "A simple multi todo list in Mode.js and MongoDb.",
+  "engines": {
+    "node": "4.2.6",
+    "npm": "3.5.2"
+  },
+  "main": "server.js",
+  "author": "Hugo de Moraes",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0",
+    "body-parser": "^1.4.3",
+    "express": "^4.13.4",
+    "method-override": "^2.1.3",
+    "mongoose": "^4.4.12",
+    "morgan": "^1.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hugodemoraes/hm-todolist"
+  },
+  "license": "MIT"
 }

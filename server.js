@@ -1,12 +1,11 @@
-// set up ======================================================================
-var express = require('express');
-var app = express(); 						// create our app w/ express
-var mongoose = require('mongoose'); 				// mongoose for mongodb
-var port = process.env.PORT || 8080; 				// set the port
-var database = require('./config/database'); 			// load the database config
+import express from 'express'
+var mongoose = require('mongoose');
+var port = process.env.PORT || 8080;
+var database = require('./config/database');
 var morgan = require('morgan');
 var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
+var app = express();
 
 // configuration ===============================================================
 mongoose.connect(database.remoteUrl); 	// Connect to local MongoDB instance. A remoteUrl is also available (modulus.io)
